@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q9M-Zf-myH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="TraccarManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.11490119248628616" green="0.53284794092178345" blue="0.89823412895202637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="36"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="whf-0X-3TE">
+            <objects>
+                <viewController id="Q9M-Zf-myH" customClass="StartViewController" customModule="TraccarManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UFS-Tw-BJG"/>
+                        <viewControllerLayoutGuide type="bottom" id="bNZ-fd-5Ma"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D6D-xb-gGA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lNI-oS-S9a">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traccar Manager" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v6-sD-Gsd" userLabel="Title">
+                                <rect key="frame" x="87" y="52" width="201.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://demo.traccar.org" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WfE-A8-W7r" userLabel="ServerField">
+                                <rect key="frame" x="124" y="101.5" width="235" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Server:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rJ-sw-k3E" userLabel="ServerLabel">
+                                <rect key="frame" x="16" y="106.5" width="100" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ZQp-m5-TCg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6K-5s-OQ0" userLabel="Info">
+                                <rect key="frame" x="16" y="147.5" width="343" height="81.5"/>
+                                <string key="text">This screen will be shown only once. After you click the button, server address will be saved in preferences. To change it, clear app data from application manager.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckZ-jN-Z0U">
+                                <rect key="frame" x="170.5" y="245" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="onStart:" destination="Q9M-Zf-myH" eventType="touchUpInside" id="RiW-Jv-7UH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1149011925" green="0.53284794089999998" blue="0.89823412899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lNI-oS-S9a" firstAttribute="leading" secondItem="D6D-xb-gGA" secondAttribute="leading" id="4KA-pQ-r3q"/>
+                            <constraint firstItem="9rJ-sw-k3E" firstAttribute="centerY" secondItem="WfE-A8-W7r" secondAttribute="centerY" id="7id-wi-ozd"/>
+                            <constraint firstItem="f6K-5s-OQ0" firstAttribute="top" secondItem="WfE-A8-W7r" secondAttribute="bottom" constant="16" id="G3a-uH-V1g"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="f6K-5s-OQ0" secondAttribute="leading" id="GfA-rD-F7W"/>
+                            <constraint firstItem="4v6-sD-Gsd" firstAttribute="centerX" secondItem="D6D-xb-gGA" secondAttribute="centerX" id="LHu-BP-868"/>
+                            <constraint firstItem="lNI-oS-S9a" firstAttribute="top" secondItem="UFS-Tw-BJG" secondAttribute="bottom" id="P0s-lf-JUy"/>
+                            <constraint firstAttribute="trailing" secondItem="lNI-oS-S9a" secondAttribute="trailing" id="Ti0-JS-8t6"/>
+                            <constraint firstItem="bNZ-fd-5Ma" firstAttribute="top" secondItem="lNI-oS-S9a" secondAttribute="bottom" id="UN6-qL-ImG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f6K-5s-OQ0" secondAttribute="trailing" id="bPa-fy-183"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="9rJ-sw-k3E" secondAttribute="leading" id="fqw-lk-1rP"/>
+                            <constraint firstItem="ckZ-jN-Z0U" firstAttribute="centerX" secondItem="D6D-xb-gGA" secondAttribute="centerX" id="g59-PN-uRI"/>
+                            <constraint firstItem="WfE-A8-W7r" firstAttribute="leading" secondItem="9rJ-sw-k3E" secondAttribute="trailing" constant="8" symbolic="YES" id="h7M-yP-wcj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WfE-A8-W7r" secondAttribute="trailing" id="mJU-da-huV"/>
+                            <constraint firstItem="ckZ-jN-Z0U" firstAttribute="top" secondItem="f6K-5s-OQ0" secondAttribute="bottom" constant="16" id="rvS-DQ-Khu"/>
+                            <constraint firstItem="WfE-A8-W7r" firstAttribute="top" secondItem="4v6-sD-Gsd" secondAttribute="bottom" constant="16" id="tQi-uH-PIg"/>
+                            <constraint firstItem="4v6-sD-Gsd" firstAttribute="top" secondItem="UFS-Tw-BJG" secondAttribute="bottom" constant="32" id="we9-DS-mrK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="serverField" destination="WfE-A8-W7r" id="nBY-dK-Or7"/>
+                        <outlet property="startButton" destination="ckZ-jN-Z0U" id="LdZ-nP-rd4"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="StartSegue" id="tec-MM-viG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="itY-CK-Gab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-706.39999999999998" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>
