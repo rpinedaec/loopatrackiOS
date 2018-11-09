@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TraccarManager.xcodeproj">
+      location = "self:/Users/rpinedaec/Documents/Desarrollo/MovilAPPs/loopatrackiOS/LoopaTrack.xcodeproj">
    </FileRef>
 </Workspace>

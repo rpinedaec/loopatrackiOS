@@ -7,31 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F25895EC8ECCA622198A065 /* Pods_TraccarManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E4ACB29C4071C1E4616715 /* Pods_TraccarManager.framework */; };
+		32ACC4DF21955C3D00FBEB0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32ACC4DE21955C3D00FBEB0E /* GoogleService-Info.plist */; };
+		32ACC4E12195621100FBEB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32ACC4E02195621000FBEB0E /* Assets.xcassets */; };
 		CE0721131C86EB9800D057CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721121C86EB9800D057CE /* AppDelegate.swift */; };
 		CE0721151C86EB9800D057CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721141C86EB9800D057CE /* MainViewController.swift */; };
 		CE0721181C86EB9800D057CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0721161C86EB9800D057CE /* Main.storyboard */; };
-		CE07211A1C86EB9800D057CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0721191C86EB9800D057CE /* Assets.xcassets */; };
 		CE07211D1C86EB9800D057CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE07211B1C86EB9800D057CE /* LaunchScreen.storyboard */; };
 		CE4BBC0B1DE844300074B0CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4BBC0A1DE844300074B0CC /* WebKit.framework */; };
 		CE850DB61E18EF0A00F4F73A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE850DB51E18EF0A00F4F73A /* StartViewController.swift */; };
+		D555C75F487A3D0AFF5DE8FC /* Pods_LoopaTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC4233061CB00EC0D6C8C72 /* Pods_LoopaTrack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14E4ACB29C4071C1E4616715 /* Pods_TraccarManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraccarManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E59E82D21565CF500C9A9E3 /* TraccarManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TraccarManager.entitlements; sourceTree = "<group>"; };
+		32ACC4DE21955C3D00FBEB0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		32ACC4E02195621000FBEB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CC4233061CB00EC0D6C8C72 /* Pods_LoopaTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoopaTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E59E82D21565CF500C9A9E3 /* LoopaTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopaTrack.entitlements; sourceTree = "<group>"; };
 		65D3CBF7B321EF362B612AD4 /* Pods-TraccarManager.google.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraccarManager.google.xcconfig"; path = "Pods/Target Support Files/Pods-TraccarManager/Pods-TraccarManager.google.xcconfig"; sourceTree = "<group>"; };
 		689FD56695DF2F5A7EC22801 /* Pods-TraccarManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraccarManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraccarManager/Pods-TraccarManager.debug.xcconfig"; sourceTree = "<group>"; };
 		6BBDB883F012E7478BFD5C90 /* Pods-TraccarManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraccarManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraccarManager/Pods-TraccarManager.release.xcconfig"; sourceTree = "<group>"; };
-		CE07210F1C86EB9800D057CE /* TraccarManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraccarManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C68106D0C8198E1583ECA9 /* Pods-LoopaTrack.google.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopaTrack.google.xcconfig"; path = "Pods/Target Support Files/Pods-LoopaTrack/Pods-LoopaTrack.google.xcconfig"; sourceTree = "<group>"; };
+		C18A2C92AACE1E3F6D7D69B8 /* Pods-LoopaTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopaTrack.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoopaTrack/Pods-LoopaTrack.release.xcconfig"; sourceTree = "<group>"; };
+		CE07210F1C86EB9800D057CE /* LoopaTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopaTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0721121C86EB9800D057CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE0721141C86EB9800D057CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CE0721171C86EB9800D057CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE0721191C86EB9800D057CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE07211C1C86EB9800D057CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE07211E1C86EB9800D057CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4BBC0A1DE844300074B0CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CE850DB51E18EF0A00F4F73A /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DA2854DB98756424A2861956 /* Pods-LoopaTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopaTrack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoopaTrack/Pods-LoopaTrack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4BBC0B1DE844300074B0CC /* WebKit.framework in Frameworks */,
-				7F25895EC8ECCA622198A065 /* Pods_TraccarManager.framework in Frameworks */,
+				D555C75F487A3D0AFF5DE8FC /* Pods_LoopaTrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +58,9 @@
 				689FD56695DF2F5A7EC22801 /* Pods-TraccarManager.debug.xcconfig */,
 				6BBDB883F012E7478BFD5C90 /* Pods-TraccarManager.release.xcconfig */,
 				65D3CBF7B321EF362B612AD4 /* Pods-TraccarManager.google.xcconfig */,
+				DA2854DB98756424A2861956 /* Pods-LoopaTrack.debug.xcconfig */,
+				C18A2C92AACE1E3F6D7D69B8 /* Pods-LoopaTrack.release.xcconfig */,
+				86C68106D0C8198E1583ECA9 /* Pods-LoopaTrack.google.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -60,7 +68,8 @@
 		CE0721061C86EB9800D057CE = {
 			isa = PBXGroup;
 			children = (
-				CE0721111C86EB9800D057CE /* TraccarManager */,
+				32ACC4E02195621000FBEB0E /* Assets.xcassets */,
+				CE0721111C86EB9800D057CE /* LoopaTrack */,
 				CE0721101C86EB9800D057CE /* Products */,
 				CE4BBC071DE83EEE0074B0CC /* Frameworks */,
 				A62847073DF220918EA9CF03 /* Pods */,
@@ -70,31 +79,31 @@
 		CE0721101C86EB9800D057CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE07210F1C86EB9800D057CE /* TraccarManager.app */,
+				CE07210F1C86EB9800D057CE /* LoopaTrack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE0721111C86EB9800D057CE /* TraccarManager */ = {
+		CE0721111C86EB9800D057CE /* LoopaTrack */ = {
 			isa = PBXGroup;
 			children = (
-				5E59E82D21565CF500C9A9E3 /* TraccarManager.entitlements */,
+				32ACC4DE21955C3D00FBEB0E /* GoogleService-Info.plist */,
+				5E59E82D21565CF500C9A9E3 /* LoopaTrack.entitlements */,
 				CE0721121C86EB9800D057CE /* AppDelegate.swift */,
 				CE850DB51E18EF0A00F4F73A /* StartViewController.swift */,
 				CE0721141C86EB9800D057CE /* MainViewController.swift */,
 				CE0721161C86EB9800D057CE /* Main.storyboard */,
-				CE0721191C86EB9800D057CE /* Assets.xcassets */,
 				CE07211B1C86EB9800D057CE /* LaunchScreen.storyboard */,
 				CE07211E1C86EB9800D057CE /* Info.plist */,
 			);
-			path = TraccarManager;
+			path = LoopaTrack;
 			sourceTree = "<group>";
 		};
 		CE4BBC071DE83EEE0074B0CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CE4BBC0A1DE844300074B0CC /* WebKit.framework */,
-				14E4ACB29C4071C1E4616715 /* Pods_TraccarManager.framework */,
+				4CC4233061CB00EC0D6C8C72 /* Pods_LoopaTrack.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE07210E1C86EB9800D057CE /* TraccarManager */ = {
+		CE07210E1C86EB9800D057CE /* LoopaTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE0721371C86EB9800D057CE /* Build configuration list for PBXNativeTarget "TraccarManager" */;
+			buildConfigurationList = CE0721371C86EB9800D057CE /* Build configuration list for PBXNativeTarget "LoopaTrack" */;
 			buildPhases = (
 				F7116A91529FBE675B09F050 /* [CP] Check Pods Manifest.lock */,
 				CE07210B1C86EB9800D057CE /* Sources */,
@@ -117,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = TraccarManager;
+			name = LoopaTrack;
 			productName = TraccarManager;
-			productReference = CE07210F1C86EB9800D057CE /* TraccarManager.app */;
+			productReference = CE07210F1C86EB9800D057CE /* LoopaTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,8 +143,8 @@
 				TargetAttributes = {
 					CE07210E1C86EB9800D057CE = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = YW49KTJKFW;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -144,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE07210A1C86EB9800D057CE /* Build configuration list for PBXProject "TraccarManager" */;
+			buildConfigurationList = CE07210A1C86EB9800D057CE /* Build configuration list for PBXProject "LoopaTrack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -157,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE07210E1C86EB9800D057CE /* TraccarManager */,
+				CE07210E1C86EB9800D057CE /* LoopaTrack */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE07211D1C86EB9800D057CE /* LaunchScreen.storyboard in Resources */,
-				CE07211A1C86EB9800D057CE /* Assets.xcassets in Resources */,
+				32ACC4DF21955C3D00FBEB0E /* GoogleService-Info.plist in Resources */,
+				32ACC4E12195621100FBEB0E /* Assets.xcassets in Resources */,
 				CE0721181C86EB9800D057CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,7 +192,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TraccarManager/Pods-TraccarManager-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoopaTrack/Pods-LoopaTrack-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -195,7 +205,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraccarManager/Pods-TraccarManager-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoopaTrack/Pods-LoopaTrack-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CBA62FB01F5E1A9D00BEDA76 /* ShellScript */ = {
@@ -222,7 +232,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TraccarManager-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LoopaTrack-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -315,20 +325,23 @@
 		};
 		CBA62FAB1F5E143600BEDA76 /* Google */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D3CBF7B321EF362B612AD4 /* Pods-TraccarManager.google.xcconfig */;
+			baseConfigurationReference = 86C68106D0C8198E1583ECA9 /* Pods-LoopaTrack.google.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TraccarManager/TraccarManager.entitlements;
-				DEVELOPMENT_TEAM = YW49KTJKFW;
+				CODE_SIGN_ENTITLEMENTS = LoopaTrack/LoopaTrack.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = TraccarManager/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoopaTrack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D FIREBASE";
-				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_BUNDLE_IDENTIFIER = net.xcodec.loopatrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -440,19 +453,22 @@
 		};
 		CE0721381C86EB9800D057CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 689FD56695DF2F5A7EC22801 /* Pods-TraccarManager.debug.xcconfig */;
+			baseConfigurationReference = DA2854DB98756424A2861956 /* Pods-LoopaTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TraccarManager/TraccarManager.entitlements;
-				DEVELOPMENT_TEAM = YW49KTJKFW;
+				CODE_SIGN_ENTITLEMENTS = LoopaTrack/LoopaTrack.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = TraccarManager/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoopaTrack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_BUNDLE_IDENTIFIER = net.xcodec.loopatrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -461,19 +477,22 @@
 		};
 		CE0721391C86EB9800D057CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BBDB883F012E7478BFD5C90 /* Pods-TraccarManager.release.xcconfig */;
+			baseConfigurationReference = C18A2C92AACE1E3F6D7D69B8 /* Pods-LoopaTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TraccarManager/TraccarManager.entitlements;
-				DEVELOPMENT_TEAM = YW49KTJKFW;
+				CODE_SIGN_ENTITLEMENTS = LoopaTrack/LoopaTrack.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = TraccarManager/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoopaTrack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_BUNDLE_IDENTIFIER = net.xcodec.loopatrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -482,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE07210A1C86EB9800D057CE /* Build configuration list for PBXProject "TraccarManager" */ = {
+		CE07210A1C86EB9800D057CE /* Build configuration list for PBXProject "LoopaTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE0721351C86EB9800D057CE /* Debug */,
@@ -492,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE0721371C86EB9800D057CE /* Build configuration list for PBXNativeTarget "TraccarManager" */ = {
+		CE0721371C86EB9800D057CE /* Build configuration list for PBXNativeTarget "LoopaTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE0721381C86EB9800D057CE /* Debug */,
